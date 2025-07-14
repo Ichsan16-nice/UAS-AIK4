@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Niat Sholat Maghrib</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f9f9f9;
+      margin: 0;
+      padding: 0;
+    }
+
+    .arabic {
+      font-size: 1.5rem;
+      line-height: 2.5rem;
+      direction: rtl;
+      text-align: right;
+      font-family: 'Scheherazade', 'Noto Naskh Arabic', serif;
+    }
+
+    .latin {
+      font-style: italic;
+      color: #333;
+      margin-top: 1rem;
+    }
+
+    .arti {
+      margin-top: 1rem;
+      color: #444;
+    }
+
+    .audio-button {
+      background-color: #e5e5e5;
+      padding: 0.5rem 1rem;
+      border-radius: 0.375rem;
+      font-size: 1rem;
+      font-weight: 500;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 1.5rem;
+      cursor: pointer;
+      transition: background-color 0.2s ease;
+    }
+
+    .audio-button:hover {
+      background-color: #d1d1d1;
+    }
+  </style>
+</head>
+
+<body class="flex flex-col min-h-screen justify-between">
+
+  <!-- Konten Utama -->
+  <main class="flex-grow flex flex-col lg:flex-row justify-center items-center gap-12 px-6 py-12 bg-white">
+    <!-- Gambar dan Audio -->
+    <div class="flex flex-col items-center">
+      <img src="img/niat atau i'itidal.png" alt="niat" class="w-96 h-auto" />
+      <audio id="audio-doa" src="audio/niatmagrib.mp3" typeof="audio/mpeg"></audio>
+      <button onclick="document.getElementById('audio-doa').play()" class="audio-button">
+        ▶ Dengarkan Doa
+      </button>
+    </div>
+
+    <!-- Teks Doa -->
+    <div class="max-w-2xl">
+      <h2 class="text-2xl font-bold mb-8">Niat Sholat Maghrib</h2>
+
+      <p class="arabic">
+        أُصَلِّى فَرْضَ المَغْرِبِ ثَلاَثَ رَكَعاَتٍ مُسْتَقْبِلَ الْقِبْلَةِ أَدَاءً (مَأْمُوْمًا/إِمَامًا) لله تَعَالَى
+      </p>
+
+      <p class="latin">
+        "Ushalli fardhal maghribi tsalaatsa raka'aatin mustaqbilal qiblati adaa'an (ma'muman/imaman) lillaahi ta'aalaa."
+      </p>
+
+      <p class="arti">
+        Artinya: "Saya niat sholat fardu Maghrib tiga rakaat menghadap kiblat, tunai (sebagai makmum/imam), karena Allah Ta'ala."
+      </p>
+    </div>
+  </main>
+
+  <!-- Garis pemisah -->
+  <hr class="w-full border-gray-300">
+
+  <!-- Tombol Kembali di Footer -->
+  <footer class="text-center py-6 bg-white">
+    <a href="tatacarasholat.html"
+      class="inline-block px-6 py-2 bg-blue-700 text-white rounded hover:bg-blue-800 transition">
+      ← Kembali ke Gerakan Sholat
+    </a>
+  </footer>
+
+</body>
+
+</html>
