@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Membaca Doa Tasyahud Akhir</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+        }
+
+        .arabic {
+            font-size: 1.5rem;
+            line-height: 2.5rem;
+            direction: rtl;
+            text-align: right;
+            font-family: 'Scheherazade', 'Noto Naskh Arabic', serif;
+        }
+
+        .latin {
+            font-style: italic;
+            color: #333;
+            margin-top: 1rem;
+        }
+
+        .arti {
+            margin-top: 1rem;
+            color: #444;
+        }
+
+        .audio-button {
+            background-color: #e5e5e5;
+            padding: 0.5rem 1rem;
+            border-radius: 0.375rem;
+            font-size: 1rem;
+            font-weight: 500;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 1.5rem;
+            cursor: pointer;
+            transition: background-color 0.2s ease;
+        }
+
+        .audio-button:hover {
+            background-color: #d1d1d1;
+        }
+    </style>
+</head>
+
+<body class="flex flex-col min-h-screen justify-between">
+
+    <!-- Konten Utama -->
+    <main class="flex-grow flex flex-col lg:flex-row justify-center items-center gap-12 px-6 py-12 bg-white">
+        <!-- Gambar dan Tombol -->
+        <div class="flex flex-col items-center">
+            <img src="img/tahiyat akhir.png" alt="niat" class="w-96 h-auto" />
+            <audio id="audio-doa" src="audio/tasyahudakhir.mp3" typeof="audio/mpeg"></audio>
+            <button onclick="document.getElementById('audio-doa').play()" class="audio-button">
+                ▶ Dengarkan Doa
+            </button>
+        </div>
+
+        <!-- Teks Doa -->
+        <div class="max-w-2xl">
+            <h2 class="text-2xl font-bold mb-8"> Tasyahud Akhir </h2>
+
+            <p class="arabic">
+              اَلتَّحِيَّاتُ لِلّهِ وَالصَّلَوَاتُ وَالطَّيِّباَتُ. اَلسَّلاَمُ عَلَيْكَ أَيُّهاَ النَّبِيُّوَرَحْمَةُ اللهِ وَبَرَكاَتُهُ. اَلسَّلاَمُ عَلَيْناَ وَعَلَى عِباَدِاللهِ الصَّالِحِيْنَ أَشْهَدُ اَنْ لاَاِلَهَ اِلاَّ اللهِ وَأَشْهَدُ أَنَّ مُحَمَّدًا عَبْدُهُ وَرَسُوْلُهُ. اَللَّهُمَّ صَلِّ عَلَى مُحَمَّدٍ وَعَلَى آلِ مُحَمَّدٍ كَمَا صَلَّيْتَ عَلَى إِبْرَاهِيْمَ وَعَلَى آلِ إِبْرَاهِيْمَ وَبَارِكْ عَلَى مُحَمَّدٍ وَعَلَى آلِ مُحَمَّدٍ كَمَا بَارَكْتَ عَلَى إِبْرَاهِيْمَ وَعَلَى آلِ إِبْرَاهِيْمَ فِى الْعَالَمِيْنَ إِنَّكَ حَمِيْدٌ مَجِيْدٌ. اَللَّهُمَّ إِنِّي أَعُوْذُبِكَ مِنْ عَذَابِ جَهَنَّمَ وَمِنْ عَذَابِ الْقَبْرِ وَمِنْ فِتْنَةِ الْمَحْيَا وَالْمَمَاتِ وَمِنْ فِتْنَةِ الْمَسِيْحِ الدَّجَّالِ.  
+            </p>
+
+            <p class="latin">
+               Attahiyyaatu lillaahi washsholawaatu waththoyyibaat. Assalaamu 'alaika ayyuhannabiyyu warohmatullaahi wabarokaatuh. Assalaamu'alainaa wa'ala'ibaadillaahi shoolihiin. Asyhadu anlaa ilaaha illallaah waasyhadu anna muhammadan 'abduhu warosuuluh. Allaahumma sholli 'alaa Muhammad wa'alaa aali Muhammad kamaa shollaita 'alaa ibraahiim wa'alaa aali ibraahiim, wa baarik 'alaa Muhammad wa'alaa aali Muhammad kamaa baarokta 'alaa ibraahiim wa'alaa aali ibraahiim fil'aalamiina innaka hamiidum majiid. Allaahumma innii a'uudzubika min 'adzaabi jahannam, wa min 'adzaabil qabri, wa min fitnatil mahyaa wal mamaati, wa min fitnatil masiihid dajjaal. 
+
+            <p class="arti">
+                Artinya: "Segala kehormatan, keberkahan, shalawat, dan kebaikan adalah milik Allah. Keselamatan, rahmat, dan berkah Allah semoga tercurah kepadamu wahai Nabi. Keselamatan semoga tercurah juga kepada kami dan kepada seluruh hamba Allah yang sholeh. Aku bersaksi bahwa tidak ada Tuhan selain Allah, dan aku bersaksi bahwa Muhammad adalah utusan Allah. Ya Allah, berilah shalawat atas Muhammad dan keluarga Muhammad, sebagaimana Engkau telah memberikan shalawat kepada Ibrahim dan keluarga Ibrahim. Ya Allah, berilah berkah atas Muhammad dan keluarga Muhammad, sebagaimana Engkau telah memberikan berkah kepada Ibrahim dan keluarga Ibrahim. Sesungguhnya Engkau Maha Terpuji lagi Maha Mulia. Ya Allah, aku berlindung kepada-Mu dari siksa neraka Jahannam, dari siksa kubur, dari fitnah kehidupan dan kematian, dan dari keburukan fitnah Dajjal". 
+            </p>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="text-center py-6 bg-white border-t border-gray-300">
+        <a href="tatacarasholat.html"
+            class="inline-block px-6 py-2 bg-blue-700 text-white rounded hover:bg-blue-800 transition">
+            ← Kembali ke Gerakan Sholat
+        </a>
+    </footer>
+
+</body>
+
+</html>

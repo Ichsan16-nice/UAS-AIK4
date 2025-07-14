@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Panduan Sholat - Grid</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #dba958;
+        }
+
+        .card {
+            background: white;
+            border-radius: 8px;
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+
+        .card img {
+            width: 300px;
+            height: 300px;
+            object-fit: contain;
+            margin-bottom: 10px;
+        }
+
+        .card h4 {
+            font-size: 16px;
+            margin: 0;
+        }
+
+        .card p {
+            font-size: 13px;
+            margin: 6px 0;
+            color: #333;
+        }
+
+        .btn-detail {
+            padding: 6px 10px;
+            margin-top: auto;
+            background-color: #005b96;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            font-size: 13px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <header class="bg-gray-800 text-white shadow-md sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center py-4">
+                <!-- Logo -->
+                <h1 class="text-2xl font-bold tracking-wider">
+                    Belajar<em class="italic font-light text-yellow-400">Sholat</em>
+                </h1>
+
+                <!-- Navigation Links -->
+                <nav class="hidden md:flex space-x-6 text-sm font-medium">
+                    <a href="index.html" class="hover:text-yellow-400 transition">Beranda</a>
+                    <a href="doa-dan-bacaan.html" class="hover:text-yellow-400 transition">Bacaan Sholat</a>
+                    <a href="tatacarasholat.html" class="hover:text-yellow-400 transition">Tentang Panduan</a>
+                    <a href="Kontak.html" class="hover:text-yellow-400 transition">Kontak</a>
+                </nav>
+
+                <!-- Mobile Menu Button -->
+                <button class="md:hidden" onclick="alert('Menu mobile belum tersedia')">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 text-white" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Card Container -->
+    <div class="flex flex-wrap justify-center gap-6 mt-8 px-4">
+        <!-- Card 1 -->
+        <div class="card w-72 h-[28rem] mb-8">
+            <img src="img/niat atau i'itidal.png" alt="Niat Sholat subuh">
+            <h4>Niat Sholat Subuh</h4>
+            <p>Berdiri tegak, menyesuaiakn posisi safh sholat dan membaca niat.</p>
+            <a href="niat.html" class="btn-detail mt-auto mb-[0.9rem]">Lihat detail bacaannya</a>
+        </div>
+
+        <div class="card w-72 h-[28rem] mb-8">
+            <img src="img/niat atau i'itidal.png" alt="Niat Sholat zhuhur">
+            <h4>Niat Sholat zhuhur</h4>
+            <p>Berdiri tegak, menyesuaiakn posisi safh sholat dan membaca niat.</p>
+            <a href="niatzuhur.html" class="btn-detail mt-auto mb-[0.9rem]">Lihat detail bacaannya</a>
+        </div>
+
+        <div class="card w-72 h-[28rem] mb-8">
+            <img src="img/niat atau i'itidal.png" alt="Niat Sholat Ashar">
+            <h4>Niat Sholat Ashar</h4>
+            <p>Berdiri tegak, menyesuaiakn posisi safh sholat dan membaca niat.</p>
+            <a href="niatasar.html" class="btn-detail mt-auto mb-[0.9rem]">Lihat detail bacaannya</a>
+        </div>
+
+        <div class="card w-72 h-[28rem] mb-8">
+            <img src="img/niat atau i'itidal.png" alt="Niat Sholat Magrib">
+            <h4>Niat Sholat Magrib</h4>
+            <p>Berdiri tegak, menyesuaiakn posisi safh sholat dan membaca niat.</p>
+           <a href="niatmangrib.html" class="btn-detail mt-auto mb-[0.9rem]">Lihat detail bacaannya</a>
+        </div>
+
+        <div class="card w-72 h-[28rem] mb-8">
+            <img src="img/niat atau i'itidal.png" alt="Niat Sholat Isya">
+            <h4>Niat Sholat Isya</h4>
+            <p>Berdiri tegak, menyesuaiakn posisi safh sholat dan membaca niat.</p>
+           <a href="niatisya.html" class="btn-detail mt-auto mb-[0.9rem]">Lihat detail bacaannya</a>
+        </div>
+
+        <!--Card 2-->
+        <div class="card w-72 h-[28rem] mb-8">
+            <img src="img/takbiratul ihram.png" alt="Takbiratul Ihram">
+            <h4>Takbiratul Ihram</h4>
+            <p>Berdiri tegak, mengakat tanagan sampai ke bawah telinga.</p>
+          <a href="takbiratulihram.html" class="btn-detail mt-auto mb-[0.9rem]">Lihat detail bacaannya</a>
+        </div>
+
+        <!--Card 3-->
+        <div class="card w-72 h-[28rem] mb-8">
+            <img src="img/membaca surat Al-Fatihah.png" alt="Berdiri">
+            <h4>Membaca Doa Iftitah</h4>
+            <p>Disunnah kan membaca doa Iftitah terlebih dahulu</p>
+           <a href="Berdiri.html" class="btn-detail mt-auto mb-[0.9rem]">Lihat detail bacaannya</a>
+        </div>
+
+        <!--Card 3-->
+        <div class="card w-72 h-[28rem] mb-8">
+            <img src="img/membaca surat Al-Fatihah.png" alt="Berdiri">
+            <h4>Membaca Doa Al-Fatihah</h4>
+            <p>Setiap Awal rakaat, diwajibkan untuk membaca surah Al-Fatihah</p>
+           <a href="Al-fatiha.html" class="btn-detail mt-auto mb-[0.9rem]">Lihat detail bacaannya</a>
+        </div>
+
+        <!--Card 3-->
+        <div class="card w-72 h-[28rem] mb-8">
+            <img src="img/membaca surat Al-Fatihah.png" alt="Berdiri">
+            <h4>Membaca Surah Pendek</h4>
+            <p>Setelah Membaca Al-fatihah, Disunnahkan untuk membaca surah pendek</p>
+            <a href="Surahpendek.html" class="btn-detail mt-auto mb-[0.9rem]">Lihat detail bacaannya</a>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="card w-72 h-[28rem] mb-8">
+            <img src="img/rukuk.png" alt="Rukuk">
+            <h4>Rukuk</h4>
+            <p>Membungkuk dengan punggung rata dan membaca doa rukuk.</p>
+           <a href="Ruku.html" class="btn-detail mt-auto mb-[0.9rem]">Lihat detail bacaannya</a>
+        </div>
+
+        <!-- Card 5 -->
+        <div class="card w-72 h-[28rem] mb-8">
+            <img src="img/niat atau i'itidal.png" alt="I'tidal">
+            <h4>I'tidal</h4>
+            <p>Berdiri tegak setelah rukuk dan membaca doa i’tidal.</p>
+           <a href="Itidal.html" class="btn-detail mt-auto mb-[0.9rem]">Lihat detail bacaannya</a>
+        </div>
+
+        <!-- Card 6 -->
+        <div class="card w-72 h-[28rem] mb-8">
+            <img src="img/sujud.png" alt="Sujud">
+            <h4>Sujud</h4>
+            <p>Sujud dengan tujuh anggota tubuh dan membaca doa sujud.</p>
+            <a href="Sujud.html" class="btn-detail mt-auto mb-[0.9rem]">Lihat detail bacaannya</a>
+        </div>
+
+        <!-- Card 7 -->
+        <div class="card w-72 h-[28rem] mb-8">
+            <img src="img/duduk diantara dua sujud.png" alt="Duduk antara dua sujud">
+            <h4>Duduk antara dua sujud</h4>
+            <p>Duduk dan membaca doa “Rabbighfirli warhamni…”</p>
+           <a href="Dudukantaraduasujud.html" class="btn-detail mt-auto mb-[0.9rem]">Lihat detail bacaannya</a>
+        </div>
+
+        <!-- Card 8 -->
+        <div class="card w-72 h-[28rem] mb-8">
+            <img src="img/tahiyat akhir.png" alt="Tasyahud Awal">
+            <h4>Tasyahud Awal</h4>
+            <p>Duduk dan membaca tahiyat awal dalam rakaat ke-2.</p>
+            <a href="Tasyahudawal.html" class="btn-detail mt-auto mb-[0.9rem]">Lihat detail bacaannya</a>
+        </div>
+
+        <!-- Card 9 -->
+        <div class="card w-72 h-[28rem] mb-8">
+            <img src="img/tahiyat akhir.png" alt="Tasyahud Akhir">
+            <h4>Tasyahud Akhir</h4>
+            <p>Duduk terakhir sebelum salam, membaca tahiyat akhir.</p>
+            <a href="Tasyahudakhir.html" class="btn-detail mt-auto mb-[0.9rem]">Lihat detail bacaannya</a>
+        </div>
+
+        <!-- Card 10 -->
+        <div class="card w-72 h-[28rem] mb-8">
+            <img src="img/salam dalam sholat.png" alt="Salam">
+            <h4>Salam</h4>
+            <p>Menoleh ke kanan dan kiri sambil mengucapkan salam.</p>
+           <a href="Salam.html" class="btn-detail mt-auto mb-[0.9rem]">Lihat detail bacaannya</a>
+        </div>
+
+        <!--Card 11-->
+        <div class="card w-72 h-[28rem] mb-8">
+            <img src="img/Doa dalam sholat.png" alt="Doa">
+            <h4>Doa</h4>
+            <p>Doa sesuai sholat, sunah maupun wajib.</p>
+            <a href="Doa.html" class="btn-detail mt-auto mb-[0.9rem]">Lihat detail bacaannya</a>
+        </div>
+    </div>
+
+</body>
+
+</html>
