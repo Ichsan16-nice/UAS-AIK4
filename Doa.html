@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Membaca Doa Setelah Sholat</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+        }
+
+        .arabic {
+            font-size: 1.5rem;
+            line-height: 2.5rem;
+            direction: rtl;
+            text-align: right;
+            font-family: 'Scheherazade', 'Noto Naskh Arabic', serif;
+        }
+
+        .latin {
+            font-style: italic;
+            color: #333;
+            margin-top: 1rem;
+        }
+
+        .arti {
+            margin-top: 1rem;
+            color: #444;
+        }
+
+        .audio-button {
+            background-color: #e5e5e5;
+            padding: 0.5rem 1rem;
+            border-radius: 0.375rem;
+            font-size: 1rem;
+            font-weight: 500;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 1.5rem;
+            cursor: pointer;
+            transition: background-color 0.2s ease;
+        }
+
+        .audio-button:hover {
+            background-color: #d1d1d1;
+        }
+    </style>
+</head>
+
+<body class="flex flex-col min-h-screen justify-between">
+
+    <!-- Konten Utama -->
+    <main class="flex-grow flex flex-col lg:flex-row justify-center items-center gap-12 px-6 py-12 bg-white">
+        <!-- Gambar dan Tombol -->
+        <div class="flex flex-col items-center">
+            <img src="img/Doa dalam sholat.png" alt="niat" class="w-96 h-auto" />
+            <audio id="audio-doa" src="audio/doasetelahsholat.mp3" typeof="audio/mpeg"></audio>
+            <button onclick="document.getElementById('audio-doa').play()" class="audio-button">
+                ▶ Dengarkan Doa
+            </button>
+        </div>
+
+        <!-- Teks Doa -->
+        <div class="max-w-2xl">
+            <h2 class="text-2xl font-bold mb-8"> Doa Setelah Sholat </h2>
+
+            <p class="arabic">
+                اَللَّهُمَّ إِنَّا نَسْأَلُكَ سَلَامَةً فِي الدِّينِ وَعَافِيَةً فِي الْجَسَدِ وَزِيَادَةً فِي الْعِلْمِ
+                وَبَرَكَةً فِي الرِّزْقِ وَتَوْبَةً قَبْلَ الْمَوْتِ وَرَحْمَةً عِنْدَ الْمَوْتِ وَمَغْفِرَةً بَعْدَ
+                الْمَوْتِ. اَللَّهُمَّ هَوِّنْ عَلَيْنَا فِي سَكَرَاتِ الْمَوْتِ وَالنَّجَاةَ مِنَ النَّارِ وَالْعَفْوَ
+                عِنْدَ الْحِسَابِ.
+            </p>
+
+            <p class="latin">
+                Allahumma innaa nasaluka salaamatan fiddiini wa'aafiyatan fil jasadi wa ziyaadatan fil 'ilmi wa
+                barakatan fir rizqi wa taubatan qablal mauti warahmatan 'indal mauti wamaghfiratan ba'dal maut.
+                Allahumma hawwin 'alainaa fii sakaraatil mauti wannajaata minan naari wal 'afwa 'indal hisaab.
+
+            <p class="arti">
+                Artinya: "Ya Allah, sesungguhnya kami memohon kepada-Mu keselamatan dalam agama, kesehatan pada jasad,
+                tambahan ilmu, keberkahan dalam rezeki, taubat sebelum mati, rahmat saat kematian, dan ampunan setelah
+                kematian.
+                Ya Allah, mudahkanlah kami dalam menghadapi sakaratul maut, selamatkan kami dari api neraka, dan
+                berikanlah ampunan saat hisab".
+            </p>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="text-center py-6 bg-white border-t border-gray-300">
+        <a href="tatacarasholat.html"
+            class="inline-block px-6 py-2 bg-blue-700 text-white rounded hover:bg-blue-800 transition">
+            ← Kembali ke Gerakan Sholat
+        </a>
+    </footer>
+
+</body>
+
+</html>

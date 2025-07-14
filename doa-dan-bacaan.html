@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Doa dalam Sholat</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #d6a857;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #1c1f26;
+            color: white;
+            padding: 1rem 2rem;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+
+        .card {
+            background-color: white;
+            border-radius: 10px;
+            padding: 1.5rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .arabic {
+            font-size: 1.3rem;
+            direction: rtl;
+            text-align: right;
+            margin: 0.5rem 0;
+        }
+
+        .latin {
+            font-style: italic;
+            color: #444;
+        }
+
+        .translation {
+            margin-top: 0.5rem;
+            color: #222;
+        }
+
+        h2 {
+            text-align: center;
+            color: #333;
+        }
+
+        .nav-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            margin: 3rem 0;
+        }
+
+        .nav-buttons a {
+            background-color: #1c1f26;
+            color: white;
+            padding: 0.75rem 1.5rem;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+            transition: 0.3s ease;
+        }
+
+        .nav-buttons a:hover {
+            background-color: #444;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <header class="bg-gray-800 text-white shadow-md sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center py-4">
+                <!-- Logo -->
+                <h1 class="text-2xl font-bold tracking-wider">
+                    Belajar<em class="italic font-light text-yellow-400">Sholat</em>
+                </h1>
+
+                <!-- Navigation Links -->
+                <nav class="hidden md:flex space-x-6 text-sm font-medium">
+                    <a href="index.html" class="hover:text-yellow-400 transition">Beranda</a>
+                    <a href="doa-dan-bacaan.html" class="hover:text-yellow-400 transition">Bacaan Sholat</a>
+                    <a href="tatacarasholat.html" class="hover:text-yellow-400 transition">Tentang Panduan</a>
+                    <a href="Kontak.html" class="hover:text-yellow-400 transition">Kontak</a>
+                </nav>
+
+                <!-- Mobile Menu Button -->
+                <button class="md:hidden" onclick="alert('Menu mobile belum tersedia')">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 text-white" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+
+        <div class="card">
+            <h2>Niat Sholat Subuh</h2>
+            <p class="arabic">أُصَلِّى فَرْضَ الصُّبْح رَكَعتَيْنِ مُسْتَقْبِلَ الْقِبْلَةِ أَدَاءً لله تَعَالَى.</p>
+            <p class="latin"> Usholli fardho shubhi rak'ataini mustaqbilal qiblati adaa'an lillaahi ta'aala.</p>
+            <p class="translation">Artinya: "Aku niat salat fardu Subuh, dua rakaat, menghadap kiblat, tepat waktu,
+                karena Allah ta’ala."</p>
+        </div>
+
+        <div class="card">
+            <h2>Niat Sholat zhuhur</h2>
+            <p class="arabic"> أُصَلِّي فَرْضَ الظُّهْرِ أَرْبَعَ رَكَعَاتٍ مُسْتَقْبِلَ الْقِبْلَةِ أَدَاءً لِلَّهِ
+                تَعَالَى.</p>
+            <p class="latin">Usholli fardhozh zhuhri arba'a roka'aatin mustaqbilal qiblati adaa-an lillaahi ta'aala.</p>
+            <p class="translation">Artinya: "Aku niat sholat fardhu Dzuhur empat rakaat menghadap kiblat, tunai karena
+                Allah Ta'ala."</p>
+        </div>
+
+        <div class="card">
+            <h2>Niat Sholat Ashar</h2>
+            <p class="arabic"> أُصَلِّى فَرْضَ العَصْرِ أَرْبَعَ رَكَعَاتٍ مُسْتَقْبِلَ الْقِبْلَةِ أَدَاءً للهِ
+                تَعَالَى</p>
+            <p class="latin">"Ushalli fardhal 'ashri arba'a raka'aatin mustaqbilal qiblati adaa'an lillahi ta'aala."</p>
+            <p class="translation">Artinya: "Saya niat sholat fardhu Ashar empat rakaat menghadap kiblat karena Allah
+                Ta'ala."</p>
+        </div>
+
+        <div class="card">
+            <h2>Niat Sholat Mangrib</h2>
+            <p class="arabic">أُصَلِّى فَرْضَ المَغْرِبِ ثَلاَثَ رَكَعاَتٍ مُسْتَقْبِلَ الْقِبْلَةِ أَدَاءً
+                (مَأْمُوْمًا/إِمَامًا) لله تَعَالَى</p>
+            <p class="latin">"Ushalli fardhal maghribi tsalaatsa raka'aatin mustaqbilal qiblati adaa'an
+                (ma'muman/imaman) lillaahi ta'aalaa."</p>
+            <p class="translation"> Artinya: "Saya niat sholat fardu Maghrib tiga rakaat menghadap kiblat, tunai
+                (sebagai makmum/imam), karena Allah Ta'ala."
+            </p>
+        </div>
+
+        <div class="card">
+            <h2>Niat Sholat Isya</h2>
+            <p class="arabic">أُصَلِّى فَرْضَ الْعِشَاءِ أَرْبَعَ رَكَعَاتٍ مُسْتَقْبِلَ الْقِبْلَةِ أَدَاءً (مَأْمُومًا
+                / إِمَامًا) لِلَّهِ تَعَالَى</p>
+            <p class="latin">"Ushalli fardhal ‘isyaa’i arba’a raka’aatin mustaqbilal qiblati adaa’an (ma’muuman/imaman)
+                lillaahi ta’aalaa."</p>
+            <p class="translation">Artinya, "Saya niat sholat fardu Isya empat rakaat menghadap kiblat, tunai (sebagai
+                makmum/imam), karena Allah Ta’ala."</p>
+        </div>
+
+        <div class="card">
+            <h2>Membaca Iftitah</h2>
+            <p class="arabic"> اللَّهُمَّ بَاعِدْ بَيْنِي وَبَيْنَ خَطَايَايَ كَمَا بَاعَدْتَ بَيْنَ الْمَشْرِقِ
+                وَالْمَغْرِبِ،
+                اللَّهُمَّ نَقِّنِي مِنْ خَطَايَايَ كَمَا يُنَقَّى الثَّوْبُ الْأَبْيَضُ مِنْ الدَّنَسِ،
+                للَّهُامَّ اغْسِلْنِي مِنْ خَطَايَايَ بِالْمَاءِ وَالثَّلْجِ وَالْبَرَدِ.</p>
+            <p class="latin">"Allahumma baa'id baini wa baina khotoyaaya kamaa baa'adta bainal masyriqi wal maghribi.
+                Allahumma
+                naqqinii min khotoyaaya kamaa yunaqqotsa-aubul abyadhu minaddanasi. Allahummaghsilnii min khotoyaaya
+                bil maa-iwats tsalji wal barod."</p>
+            <p class="translation"> Artinya: "Ya Allah, jauhkanlah antara aku dan kesalahan-kesalahanku sebagaimana
+                Engkau telah menjauhkan
+                antara timur dan barat. Ya Allah, bersihkanlah aku dari kesalahan-kesalahanku sebagaimana bersihnya baju
+                putih dari kotoran. Ya Allah, cucilah kesalahan-kesalahanku dengan air, salju, dan embun."</p>
+        </div>
+
+        <div class="card">
+            <h2>Membaca Al-Fatiha</h2>
+            <p class="arabic"> بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ <br>
+                الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ <br>
+                الرَّحْمَٰنِ الرَّحِيمِ <br>
+                مَالِكِ يَوْمِ الدِّينِ <br>
+                إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ <br>
+                اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ <br>
+                صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ الْمَغْضُوبِ عَلَيْهِمْ وَلَا الضَّالِّينَ</p>
+            <p class="latin">Bismillaahir rahmaanir rahiim<br>
+                Alhamdulillaahi rabbil ‘aalamiin<br>
+                Arrahmaanir rahiim<br>
+                Maaliki yaumiddiin<br>
+                Iyyaaka na'budu wa iyyaaka nasta’iin<br>
+                Ihdinash shiraathal mustaqiim<br>
+                Shiraathal ladziina an'amta ‘alaihim ghairil maghdhuubi ‘alaihim waladh-dhaalliin</p>
+            <p class="translation">Artinya: Dengan menyebut nama Allah Yang Maha Pengasih lagi Maha Penyayang.<br>
+                Segala puji bagi Allah, Tuhan seluruh alam.<br>
+                Maha Pengasih, Maha Penyayang.<br>
+                Pemilik Hari Pembalasan.<br>
+                Hanya kepada Engkaulah kami menyembah, dan hanya kepada Engkaulah kami mohon pertolongan.<br>
+                Tunjukilah kami jalan yang lurus,<br>
+                (yaitu) jalan orang-orang yang telah Engkau beri nikmat kepada mereka, bukan (jalan) mereka yang
+                dimurkai dan bukan (pula jalan) mereka yang sesat.
+                <br><br>
+                Surat Al-Fatihah ini adalah surat pertama dalam Al-Qur’an dan merupakan rukun sholat. Bacaan ini berlaku
+                untuk semua umat Islam, termasuk di lingkungan Muhammadiyah.
+            </p>
+        </div>
+
+        <div class="card">
+            <h2>Rukuk</h2>
+            <p class="arabic">سُبْحَانَ رَبِّيَ الْعَظِيمِ وَبِحَمْدِهِ</p>
+            <p class="latin">"Subhaana rabbiyal ‘azhiimi wa bihamdih."</p>
+            <p class="translation">Artinya: "Maha Suci Tuhanku Yang Maha Agung dan segala puji bagi-Nya."</p>
+        </div>
+
+        <div class="card">
+            <h2>I'tidal</h2>
+            <p class="arabic">رَبَّنَا وَلَكَ الْحَمْدُ حَمْدًا كَثِيرًا طَيِّبًا مُبَارَكًا فِيهِ</p>
+            <p class="latin">Rabbanaa wa lakal hamdu, hamdan katsiran thayyiban mubarokan fiihi
+            </p>
+            <p class="translation">Artinya:"Ya Tuhan kami, bagi-Mu segala puji, pujian yang banyak, baik dan penuh
+                berkah" </p>
+        </div>
+
+        <div class="card">
+            <h2>Sujud</h2>
+            <p class="arabic">سُبْحَانَكَ اللّهُمَّ رَبَّناَ وَبِحَمْدِكَ اَللّهُمَّ اغْفِرْلِى</p>
+            <p class="latin">Subhaanakallahumma Robbanaa wa bihamdika Allahummaghfirlii</p>
+            <p class="translation">Artinya: "Maha Suci Engkau ya Allah, Tuhan kami, dan dengan memuji-Mu, ya Allah,
+                ampunilah aku".</p>
+        </div>
+
+        <div class="card">
+            <h2>Duduk Antara Dua Sujud</h2>
+            <p class="arabic">اللَّهُمَّ اغْفِرْ لِي وَارْحَمْنِي وَاجْبُرْنِي وَاهْدِنِي وَارْزُقْنِي </p>
+            <p class="latin">Allaahummaghfirlii warhamnii wajburnii wahdinii warzuqnii</p>
+            <p class="translation">Artinya: "Ya Allah, ampunilah aku, rahmatilah aku, cukupkanlah aku, berilah aku
+                petunjuk, dan berilah aku rezeki."</p>
+        </div>
+
+        <div class="card">
+            <h2>Tasyahud Awal</h2>
+            <p class="arabic">اَلتَّحِيَّاتُ لِلّٰهِ وَالصَّلَوَاتُ وَالطَّيِّبَاتُ. اَلسَّلاَمُ عَلَيْكَ أَيُّهَا
+                النَّبِيُّ وَرَحْمَةُ اللّٰهِ وَبَرَكَاتُهُ. اَلسَّلاَمُ عَلَيْنَا وَعَلٰى عِبَادِ اللّٰهِ
+                الصَّالِحِيْنَ. أَشْهَدُ اَنْ لاَ إِلٰهَ إِلاَّ اللّٰهُ وَأَشْهَدُ أَنَّ مُحَمَّدًا عَبْدُهُ
+                وَرَسُوْلُهُ.</p>
+            <p class="latin">Attahiyyaatu lillaahi washsholawaatu waththoyyibaat. Assalaamu 'alaika ayyuhannabiyyu
+                warohmatullaahi wabarokaatuh. Assalaamu'alainaa wa'ala 'ibaadillaahi shshoolihiin. Asyhadu anlaa ilaaha
+                illallaah waasyhadu annamuhammadan 'abduhu warosuuluh. </p>
+            <p class="translation">Artinya: "Segala kehormatan, kebahagiaan, dan kebaikan adalah milik Allah.
+                Keselamatan bagi Engkau, wahai Nabi, beserta rahmat Allah dan keberkahan-Nya. Keselamatan bagi kami dan
+                bagi hamba-hamba Allah yang saleh. Aku bersaksi bahwa tiada Tuhan selain Allah, dan aku bersaksi bahwa
+                Muhammad adalah hamba dan utusan-Nya."</p>
+        </div>
+
+        <div class="card">
+            <h2>Tasyahud Akhir</h2>
+            <p class="arabic">اَلتَّحِيَّاتُ لِلّهِ وَالصَّلَوَاتُ وَالطَّيِّباَتُ. اَلسَّلاَمُ عَلَيْكَ أَيُّهاَ
+                النَّبِيُّوَرَحْمَةُ اللهِ وَبَرَكاَتُهُ. اَلسَّلاَمُ عَلَيْناَ وَعَلَى عِباَدِاللهِ الصَّالِحِيْنَ
+                أَشْهَدُ اَنْ لاَاِلَهَ اِلاَّ اللهِ وَأَشْهَدُ أَنَّ مُحَمَّدًا عَبْدُهُ وَرَسُوْلُهُ. اَللَّهُمَّ
+                صَلِّ عَلَى مُحَمَّدٍ وَعَلَى آلِ مُحَمَّدٍ كَمَا صَلَّيْتَ عَلَى إِبْرَاهِيْمَ وَعَلَى آلِ
+                إِبْرَاهِيْمَ وَبَارِكْ عَلَى مُحَمَّدٍ وَعَلَى آلِ مُحَمَّدٍ كَمَا بَارَكْتَ عَلَى إِبْرَاهِيْمَ
+                وَعَلَى آلِ إِبْرَاهِيْمَ فِى الْعَالَمِيْنَ إِنَّكَ حَمِيْدٌ مَجِيْدٌ. اَللَّهُمَّ إِنِّي أَعُوْذُبِكَ
+                مِنْ عَذَابِ جَهَنَّمَ وَمِنْ عَذَابِ الْقَبْرِ وَمِنْ فِتْنَةِ الْمَحْيَا وَالْمَمَاتِ وَمِنْ فِتْنَةِ
+                الْمَسِيْحِ الدَّجَّالِ. </p>
+            <p class="latin">Attahiyyaatu lillaahi washsholawaatu waththoyyibaat. Assalaamu 'alaika ayyuhannabiyyu
+                warohmatullaahi wabarokaatuh. Assalaamu'alainaa wa'ala'ibaadillaahi shoolihiin. Asyhadu anlaa ilaaha
+                illallaah waasyhadu anna muhammadan 'abduhu warosuuluh. Allaahumma sholli 'alaa Muhammad wa'alaa aali
+                Muhammad kamaa shollaita 'alaa ibraahiim wa'alaa aali ibraahiim, wa baarik 'alaa Muhammad wa'alaa aali
+                Muhammad kamaa baarokta 'alaa ibraahiim wa'alaa aali ibraahiim fil'aalamiina innaka hamiidum majiid.
+                Allaahumma innii a'uudzubika min 'adzaabi jahannam, wa min 'adzaabil qabri, wa min fitnatil mahyaa wal
+                mamaati, wa min fitnatil masiihid dajjaal. </p>
+            <p class="translation">Artinya: "Segala kehormatan, keberkahan, shalawat, dan kebaikan adalah milik Allah.
+                Keselamatan, rahmat, dan berkah Allah semoga tercurah kepadamu wahai Nabi. Keselamatan semoga tercurah
+                juga kepada kami dan kepada seluruh hamba Allah yang sholeh. Aku bersaksi bahwa tidak ada Tuhan selain
+                Allah, dan aku bersaksi bahwa Muhammad adalah utusan Allah. Ya Allah, berilah shalawat atas Muhammad dan
+                keluarga Muhammad, sebagaimana Engkau telah memberikan shalawat kepada Ibrahim dan keluarga Ibrahim. Ya
+                Allah, berilah berkah atas Muhammad dan keluarga Muhammad, sebagaimana Engkau telah memberikan berkah
+                kepada Ibrahim dan keluarga Ibrahim. Sesungguhnya Engkau Maha Terpuji lagi Maha Mulia. Ya Allah, aku
+                berlindung kepada-Mu dari siksa neraka Jahannam, dari siksa kubur, dari fitnah kehidupan dan kematian,
+                dan dari keburukan fitnah Dajjal". </p>
+        </div>
+
+        <div class="card">
+            <h2>Doa Selesai Sholat</h2>
+            <p class="arabic">اَللَّهُمَّ إِنَّا نَسْأَلُكَ سَلَامَةً فِي الدِّينِ وَعَافِيَةً فِي الْجَسَدِ وَزِيَادَةً
+                فِي الْعِلْمِ
+                وَبَرَكَةً فِي الرِّزْقِ وَتَوْبَةً قَبْلَ الْمَوْتِ وَرَحْمَةً عِنْدَ الْمَوْتِ وَمَغْفِرَةً بَعْدَ
+                الْمَوْتِ. اَللَّهُمَّ هَوِّنْ عَلَيْنَا فِي سَكَرَاتِ الْمَوْتِ وَالنَّجَاةَ مِنَ النَّارِ وَالْعَفْوَ
+                عِنْدَ الْحِسَابِ.</p>
+            <p class="latin">Allahumma innaa nasaluka salaamatan fiddiini wa'aafiyatan fil jasadi wa ziyaadatan fil
+                'ilmi wa
+                barakatan fir rizqi wa taubatan qablal mauti warahmatan 'indal mauti wamaghfiratan ba'dal maut.
+                Allahumma hawwin 'alainaa fii sakaraatil mauti wannajaata minan naari wal 'afwa 'indal hisaab.</p>
+            <p class="translation">Artinya: "Ya Allah, sesungguhnya kami memohon kepada-Mu keselamatan dalam agama,
+                kesehatan pada jasad,
+                tambahan ilmu, keberkahan dalam rezeki, taubat sebelum mati, rahmat saat kematian, dan ampunan setelah
+                kematian.
+                Ya Allah, mudahkanlah kami dalam menghadapi sakaratul maut, selamatkan kami dari api neraka, dan
+                berikanlah ampunan saat hisab".</p>
+        </div>
+
+        <div class="nav-buttons">
+            <a href="tatacarasholat.html">← Lihat Gerakan Sholat</a>
+            <a href="index.html">Beranda</a>
+        </div>
+
+    </div>
+</body>
+
+</html>
